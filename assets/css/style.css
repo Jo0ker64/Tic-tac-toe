@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+body {
+    background-color: #1E1E1E; 
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    color: #50FA7B; 
+}
+
+h1 {
+    margin-bottom: 0;
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    color: #50FA7B; 
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #8A2BE2; 
+    box-shadow: 0 0 20px #50FA7B; 
+    
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    border: 5px solid #FFFFFF;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+#reset {
+    color: #1E1E1E;
+    font-weight: 300;
+    margin-top: 20px;
+    width: 220px;
+    height: 50px;
+    background-color:#50FA7B  ;
+    border: none;
+    font-family: 'Bangers', cursive;
+    font-size: 26px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+    
+    border-radius: 5px;
+}
+#reset:hover {
+    background-color: #8A2BE2;
+    color: #1E1E1E;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.x {
+    color: #FFf; 
+    font-size: 80px;
+}
+
+.o {
+    color: #000; 
+    font-size: 80px;
+}
+
+.ok {
+    background-color: #8A2BE2; 
+}
+
+button{
+  
+}
